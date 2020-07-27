@@ -1,0 +1,221 @@
+body{
+    background-color: rgb(219, 23, 23);
+    margin: 0px;
+}
+
+p{
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: rgb(255, 174, 0);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 450px;
+    height: 30px;
+    border: 0px solid blue;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px rgb(255, 230, 0);
+}
+
+#tableDeJeu{
+    margin: auto;
+    width: 800px; 
+    height: 350px; 
+    border: 10px solid rgb(92, 60, 0); 
+    border-radius: 5px; 
+    background-color: green; 
+    box-shadow: black 5px 5px 5px; 
+    margin-bottom: 20px;
+}
+
+#choix, #number{
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    height: 30px;
+    border: 0px solid black;
+}
+
+#choix:hover, #number:hover{
+    box-shadow: 0px 0px 50px rgb(236, 194, 55);
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    height: 30px;
+    border: 0px solid black;
+}
+
+.rougePaire{
+    padding-top: 10px;
+    text-align: center;
+    background-color: red; 
+    color: white;  
+    height: 40px; 
+    border: 1px solid white;
+}
+
+.rougePaire:hover{
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgb(248, 84, 55); 
+    color: white;  
+    height: 40px; 
+    border: 1px solid white;
+}
+
+.noirePaire{
+    padding-top: 10px;
+    text-align: center;
+    background-color: black; 
+    color: white; 
+    height: 40px;
+    border: 1px solid white;
+}
+
+.noirePaire:hover{
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgb(61, 59, 59); 
+    color: white; 
+    height: 40px;
+    border: 1px solid white;
+}
+
+.rouge{
+    padding-top: 10px;
+    text-align: center;
+    background-color: red; 
+    color: white; 
+    width: 30px; 
+    height: 40px; 
+    float: left; 
+    border: 1px solid white;
+}
+
+.rouge:hover{
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgb(248, 84, 55); 
+    color: white; 
+    width: 30px; 
+    height: 40px; 
+    float: left; 
+    border: 1px solid white;
+}
+
+.noire{
+    padding-top: 10px;
+    text-align: center;
+    background-color: black; 
+    color: white; 
+    width: 30px; 
+    height: 40px; float: left; 
+    border: 1px solid white;
+}
+
+.noire:hover{
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgb(61, 59, 59); 
+    color: white; 
+    width: 30px; 
+    height: 40px; float: left; 
+    border: 1px solid white;
+}
+
+.champPorteJ{
+    text-align: center;
+    padding-top: 6px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+    background-color: darkgrey;
+    width: 150px;
+    height: 30px;
+    border: 5px solid rgb(23, 173, 23);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+
+.champPorteO{
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+    background-color: darkgrey;
+    width: 150px;
+    height: 30px;
+    border: 5px solid rgb(197, 11, 11);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+
+#jouer{
+    background-color: rgb(119, 91, 38);
+    color: white;
+    display: block;
+    margin: auto;
+    font-weight: bolder;
+    border: 0px solid black;
+    border-radius: 100px;
+    width: 120px;
+    height: 25px;
+    box-shadow: 4px 4px 4px black;
+}
+
+#jouer:active{
+    background-color: rgb(119, 91, 38);
+    color: white;
+    display: block;
+    margin: auto;
+    font-weight: bolder;
+    border: 0px solid black;
+    border-radius: 100px;
+    width: 120px;
+    height: 25px;
+    box-shadow: 0px 0px 0px black;
+    margin-top: 2px;
+}
+
+
+#reset{
+    background-color: rgb(119, 91, 38);
+    color: white;
+    display: block;
+    margin: auto;
+    font-weight: bolder;
+    border: 0px solid black;
+    border-radius: 100px;
+    width: 120px;
+    height: 25px;
+    box-shadow: 4px 4px 4px black;
+}
+
+#reset:active{
+    background-color: rgb(119, 91, 38);
+    color: white;
+    display: block;
+    margin: auto;
+    font-weight: bolder;
+    border: 0px solid black;
+    border-radius: 100px;
+    width: 120px;
+    height: 25px;
+    box-shadow: 0px 0px 0px black;
+    margin-top: 2px;
+}
+
+#pregle:hover{
+    margin-left: 10%; 
+    margin-top: 10px; 
+    box-shadow: 0px 0px 20px white; 
+    border-radius: 20px;
+}
